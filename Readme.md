@@ -45,13 +45,13 @@ Deletes an incident by ID.
 ## Screenshots
 
 ### POST Incident
-![Incident API Post Screenshot](incident-api-post.png)
+![Incident API Post Screenshot](./assets/incident-api-post.png)
 
 ### GET All Incidents
-![Incident API GET ALL Data Screenshot](incident-api-get-all.png)
+![Incident API GET ALL Data Screenshot](./assets/incident-api-get-all.png)
 
 ### GET Incident by ID
-![Incident API GET BY ID Screenshot](incident-api-get-by-id.png)
+![Incident API GET BY ID Screenshot](./assets/incident-api-get-by-id.png)
 
 ### DELETE Incident
-![Incident API Delete Screenshot](incident-api-delete.png)
+![Incident API Delete Screenshot](./assets/incident-api-delete.png)
