@@ -1,5 +1,6 @@
 const db = require('./db');
 
+// Sample data to seed the database
 const sampleIncidents = [
   {
     title: 'Unexpected Chatbot Output',
@@ -21,6 +22,7 @@ const sampleIncidents = [
   }
 ];
 
+// Inserting sample data into the incidents table
 sampleIncidents.forEach((incident) => {
   db.run(
     `INSERT INTO incidents (title, description, severity, reported_at) VALUES (?, ?, ?, ?)`,
